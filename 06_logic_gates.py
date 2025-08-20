@@ -1,4 +1,7 @@
-print(True and False)
+"""Input: Two boolean values (True/False) and operation (AND/OR/XOR)
+Output: Result of the logical operation"""
+
+
 try:
     str1 = input("enter the first bool value: ")
     str2 = input("enter the second bool value: ")
@@ -9,7 +12,7 @@ try:
     elif str1.upper() == "FALSE":
         str1 = False
     else:
-       raise ValueError("Invalid boolean value entered.")
+        raise ValueError("Invalid boolean value entered.")
 
     if str2.upper() == "TRUE":
         str2 = True
