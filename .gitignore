@@ -1,0 +1,7 @@
+Google crash coursec on python/
+Google python/
+venv/
+.vscode/
+__pycache__/
+youtube_video.py
+.DS_Store
